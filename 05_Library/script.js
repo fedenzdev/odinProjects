@@ -1,5 +1,4 @@
-/*
-Exercise
+/* Exercise
 Write a constructor for making “Book” objects. We will revisit this in the project at the end of this lesson. Your 
 book objects should have the book’s title, author, the number of pages, and whether or not you have read the book.
 Put a function into the constructor that can report the book info like so:
@@ -8,6 +7,8 @@ Note: It is almost always best to return things rather than putting console.log(
 console.log(theHobbit.info());
 */
 
+
+// The Constructor.
 function Book(title, author, pages, read) {
     this.title = title
     this.author = author
@@ -17,7 +18,16 @@ function Book(title, author, pages, read) {
       console.log(title + ` by ${author},`+`${pages} pages,`+ `${read}`  )
     }
   }
+  // const theHobbit = new Book('The Hobbit', 'J.R.R Tolkien', 295, "not read yet")
+  // theHobbit.info()
+
+let myLibrary = [];
+function addBookToLibrary () { 
+    
+    console.log(myLibrary())
+}
+
+
+
   
-  const theHobbit = new Book('The Hobbit', 'J.R.R Tolkien', 295, "not read yet")
-  theHobbit.info()
-  
+ 
