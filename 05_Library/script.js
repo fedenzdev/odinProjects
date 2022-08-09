@@ -15,18 +15,18 @@ function Book(title, author, pages, read) {
     this.pages = pages
     this.read = read
     this.info = function() {
-      console.log(title + ` by ${author},`+`${pages} pages,`+ `${read}`  )
+      return (title + ` by ${author},`+`${pages} pages,`+ `${read}`  )
     }
   }
-  // const theHobbit = new Book('The Hobbit', 'J.R.R Tolkien', 295, "not read yet")
-  // theHobbit.info()
+   const theHobbit = new Book('The Hobbit', 'J.R.R Tolkien', 295, "not read yet")
+   console.log(theHobbit.info());
 
-let myLibrary = [];
+/*let myLibrary = [];
 function addBookToLibrary () { 
     
     console.log(myLibrary())
 }
-
+*/
 
 
   
