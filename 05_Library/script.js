@@ -21,6 +21,8 @@ function Book(title, author, pages, read) {
    const theHobbit = new Book('The Hobbit', 'J.R.R Tolkien', 295, "not read yet")
    console.log(theHobbit.info());
 
+   console.log("HOLAAA");
+
 /*let myLibrary = [];
 function addBookToLibrary () { 
     
